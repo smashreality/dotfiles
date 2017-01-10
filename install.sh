@@ -24,6 +24,8 @@ brew upgrade —all
 brew install dockutil
 brew install node
 brew install vim
+# install grip for vim markdown-preview plugin
+brew install grip 
 
 # install brew cask
 brew tap caskroom/cask
