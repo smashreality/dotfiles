@@ -7,11 +7,12 @@ set backspace=indent,eol,start "Allow backspace in insert mode
 " Key mappings
 
 let mapleader=","
+set pastetoggle=<F3>
 
 " Load plugins
 
-if filereadable(expand("vundle.vim"))
-  source vundle.vim
+if filereadable(expand("$HOME/vundle.vim"))
+  source $HOME/vundle.vim
 endif
 
 " Indentation
@@ -38,7 +39,9 @@ set cursorline
 " NERDTree
 
 nmap <leader>n :NERDTreeToggle<cr>
-let NERDTreeShowHidden=1
+" let NERDTreeShowHidden=1
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 
 " Markdown Preview
 let vim_markdown_preview_github=1
