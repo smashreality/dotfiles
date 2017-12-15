@@ -42,6 +42,7 @@ brew cask install omnigraffle
 brew cask install slack
 brew cask install spectacle
 brew cask install virtualbox
+brew cask install skype
 
 open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
 
