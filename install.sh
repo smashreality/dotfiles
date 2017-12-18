@@ -44,6 +44,7 @@ brew cask install spectacle
 brew cask install virtualbox
 brew cask install skype
 brew cask install google-drive-file-stream
+brew cask install filezilla
 
 open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
 
