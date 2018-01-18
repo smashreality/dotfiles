@@ -5,13 +5,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 xcode-select --install
 
-# add git aliases
-
-git config --global alias.co checkout
-git config --global alias.br branch
-git config --global alias.ci commit
-git config --global alias.st status
-
 # install brew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -47,6 +40,15 @@ brew cask install google-drive-file-stream
 brew cask install filezilla
 brew cask install docker
 brew cask install sdformatter
+
+# add git aliases
+
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+
+git config --global core.editor $(which vim)
 
 open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
 
