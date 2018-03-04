@@ -16,6 +16,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-markdown'
 Plugin 'mattn/emmet-vim'
 Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 
