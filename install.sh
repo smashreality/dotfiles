@@ -40,6 +40,7 @@ brew cask install google-drive-file-stream
 brew cask install filezilla
 brew cask install docker
 brew cask install sdformatter
+brew cask install postman
 
 # add git aliases
 
