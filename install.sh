@@ -41,6 +41,8 @@ brew cask install filezilla
 brew cask install docker
 brew cask install sdformatter
 brew cask install postman
+#design apps
+brew cask install sketch
 
 # add git aliases
 
