@@ -15,8 +15,19 @@ Plugin 'scrooloose/nerdtree'
 
 Plugin 'tpope/vim-markdown'
 Plugin 'mattn/emmet-vim'
-Plugin 'JamshedVesuna/vim-markdown-preview'
+Plugin 'Valloric/YouCompleteMe'
+" Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+"Plugin 'itchyny/lightline.vim'
+"Plugin 'junegunn/fzf.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ervandew/supertab' 
+Plugin 'w0rp/ale'
+Plugin 'ap/vim-css-color'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'dracula/vim'
 
 call vundle#end()
 
