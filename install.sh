@@ -31,18 +31,20 @@ brew cask install evernote
 brew cask install firefox
 brew cask install google-chrome
 # brew cask install java
-brew cask install omnigraffle
+# brew cask install omnigraffle
 brew cask install slack
 brew cask install spectacle
 brew cask install virtualbox
-brew cask install skype
+# brew cask install skype
 brew cask install google-drive-file-stream
 brew cask install filezilla
 brew cask install docker
 brew cask install sdformatter
 brew cask install postman
-#design apps
-brew cask install sketch
+brew cask install visual-studio-code
+
+# design apps
+# brew cask install sketch
 
 # add git aliases
 
